@@ -41,6 +41,9 @@ var multi = 2**3
 
 
 
-var math = Math.sqrt(196)
+var math = Math.PI;
+
+//12 * 12 = 144
+
 
 console.log(math)
