@@ -26,10 +26,13 @@ const mapa = new Map();
 //mapa.set("rapido",["eficiente", "agil", "veloz"]);
 // inserir / atualizar chave
 
-mapa.set(1, {nome:"Alice", idade:30});
-mapa.set(10, {nome:"Bob", idade:25});
-mapa.set(5, {nome:"Everton", idade:30});
-mapa.set(4, {nome:"João", idade:50});
+
+mapa.set(Math.floor(Math.random()*100), {nome:"Alice", idade:30});
+mapa.set(Math.floor(Math.random()*100), {nome:"Bob", idade:25});
+mapa.set(Math.floor(Math.random()*100), {nome:"Everton", idade:30});
+mapa.set(Math.floor(Math.random()*100), {nome:"João", idade:50});
+
+console.log(mapa);
 
 mapa.forEach((valor,chave) => {
   //  console.log(`Chave: ${chave}, valor: ${valor.nome}, ${valor.idade}`)
@@ -46,8 +49,17 @@ let arrayDePares= [...mapa];
 
 // retorna o valor associado a chave
 resposta = mapa.get(4);
-console.log(resposta);
+//console.log(resposta);
 //console.log(`usuario numero do ID 2: nome : ${resposta.nome}, Idade : ${resposta.idade}`);
 
 //console.log(mapa);
 
+const produtos = [
+    { nome: "Produto A", preco: 70 },
+    { nome: "Produto B", preco: 40 },
+    { nome: "Produto C", preco: 55 },
+  ];
+  const map = new Map();
+  map.set(1, produtos);
+
+ // console.log(map);

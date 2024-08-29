@@ -21,7 +21,9 @@ let pessoa = {
         somatodas: soma(10,50)
     }
 }
-console.log(pessoa);
+//console.log(pessoa);
+
+console.log(JSON.stringify(pessoa, null, 2));
 
 //pega as chaves do objeto
 let chaves = Object.keys(pessoa);
