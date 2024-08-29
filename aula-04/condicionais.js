@@ -1,6 +1,11 @@
 const prompt = require('readline-sync');
 // if, else ,else if, switch, ternario
 
+// instalação do prompt
+// https://www.npmjs.com/package/readline-sync
+// npm i readline-sync
+
+
 //if(condicao){
     // codigo a ser executado a se a condição for verdadeira
 //}
